@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/account_fragment">
+
+    <fragment
+        android:id="@+id/account_fragment"
+        android:name="com.example.healthapplication.Fragments.account"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.healthapplication.Fragments.home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_home_fragment_to_videos_fragment"
+            app:destination="@id/videos_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/videos_fragment"
+        android:name="com.example.healthapplication.Fragments.Videos"
+        android:label="fragment_videos"
+        tools:layout="@layout/fragment_videos" >
+        <action
+            android:id="@+id/action_videos_fragment_to_write_ups_fragment"
+            app:destination="@id/write_ups_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/write_ups_fragment"
+        android:name="com.example.healthapplication.Fragments.write_ups"
+        android:label="fragment_write_ups"
+        tools:layout="@layout/fragment_write_ups" >
+        <action
+            android:id="@+id/action_write_ups_fragment_to_account_fragment"
+            app:destination="@id/account_fragment" />
+    </fragment>
+</navigation>

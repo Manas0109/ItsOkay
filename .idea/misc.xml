@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/drawable/background_add_button.xml" value="0.1" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/drawable/custom_button.xml" value="0.1485" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/drawable/ic_book.xml" value="0.1485" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/drawable/ic_home.xml" value="0.1485" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1485" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/drawable/intro_blue_bg.xml" value="0.1485" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/drawable/rect_video.xml" value="0.1495" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/drawable/recyclerview_item.xml" value="0.1495" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/drawable/red_bg.xml" value="0.1495" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/drawable/text_bg.xml" value="0.1495" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/drawable/white_bg.xml" value="0.1495" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/activity_dashboard.xml" value="0.264" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/activity_sign_in.xml" value="0.264" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/activity_signin.xml" value="0.25" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/add_a_note.xml" value="0.25" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/contentmain.xml" value="0.25" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/fragment_account.xml" value="0.264" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/fragment_slider.xml" value="0.2" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/fragment_videos.xml" value="0.25" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/fragment_write_ups.xml" value="0.264" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/layout/recyclerview_item.xml" value="0.24895833333333334" />
+        <entry key="..\:/Users/Manas/AndroidStudioProjects/healthApplication/app/src/main/res/menu/menu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

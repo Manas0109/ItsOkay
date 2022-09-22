@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SliderFragment"
+    android:background="#ffffff">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="443dp"
+        android:layout_below="@+id/fragment_image"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="-26dp"
+        android:background="@drawable/intro_blue_bg">
+
+
+        <TextView
+            android:id="@+id/fragment_title"
+            android:layout_width="323dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="36dp"
+            android:gravity="left"
+            android:text="Hello Blank Fragment"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/desc_intro"
+            android:layout_width="322dp"
+            android:layout_height="137dp"
+            android:gravity="center"
+            android:text="Find solace in quality viewing"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragment_title"
+            app:layout_constraintVertical_bias="0.281" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/fragment_image"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/frag1" />
+
+
+</RelativeLayout>

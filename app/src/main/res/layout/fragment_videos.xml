@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.Videos">
+
+    <LinearLayout
+        android:id="@+id/explore"
+        android:layout_width="349dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/intro_blue_bg"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="54dp"
+            android:layout_height="58dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_baseline_filter_list" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="241dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center"
+            android:text="Videos"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/ic_baseline_search" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="366dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/rect_video"
+        android:backgroundTint="@color/red"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/explore">
+
+
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20sp"
+            android:text="What is imposter syndrome and how can you combat it - Elizabeth Cox"
+            android:textColor="@color/blue"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/imposter" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="366dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rect_video"
+        android:backgroundTint="@color/red"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1">
+
+
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20sp"
+            android:text="7 signs that you are having mental breakdown"
+            android:textColor="@color/blue"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/mental" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="366dp"
+        android:layout_height="137dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rect_video"
+        android:backgroundTint="@color/red"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+
+        <TextView
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20sp"
+            android:layout_marginTop="20sp"
+            android:text="How to deal with relationships? || Sandhguru"
+            android:textColor="@color/blue"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="87dp"
+            android:layout_marginTop="20sp"
+            android:src="@drawable/relation" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
